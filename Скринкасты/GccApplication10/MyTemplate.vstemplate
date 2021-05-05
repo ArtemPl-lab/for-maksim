@@ -1,0 +1,32 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>GccApplication10</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CandCPP</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>GccApplication10</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="GccApplication10.cproj" File="GccApplication10.cproj" ReplaceParameters="true">
+      <Folder Name="libm" TargetFolderName="libm" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="ADC.c">ADC.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ADC.h">ADC.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="crc8.c">crc8.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="crc8.h">crc8.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ds18x20.c">ds18x20.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ds18x20.h">ds18x20.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main.c">main.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="onewire.c">onewire.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="onewire.h">onewire.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="uart.c">uart.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="uart.h">uart.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
